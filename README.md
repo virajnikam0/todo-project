@@ -12,11 +12,11 @@
 
 ## VERSION
 
-1. Noraml Command Based = working on in
-2. Web based = not started
+1. Normal Command Based = done
+2. Web based = validation part is remain
 3. cmd = not started
 
-### Steps/Appoches
+### Steps/Approch
 
 1. Todo
 
