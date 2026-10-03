@@ -39,8 +39,7 @@ functionality that project contain
 
 ## Adding project 
 - url shortener 
-- youtube mp4 mp3 convertor
-- image
-- music player
+- pixelated img creation
+- music playey
 
 
