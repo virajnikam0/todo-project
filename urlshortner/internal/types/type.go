@@ -5,8 +5,12 @@ import "math/rand"
 type UrlStructure struct {
 	Link string `json:"link"`
 }
+type ShortUrlStructure struct {
+	ShortLink string `json:"shortlink"`
+}
 
 var LinkAndUniqueValue = make(map[string]string)
+var UniqueValueAndLink = make(map[string]string)
 
 var tempV = "123"
 var isItUniqueString = map[string]bool{tempV: true}
