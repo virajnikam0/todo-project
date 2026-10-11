@@ -31,7 +31,8 @@ func MustLoad() {
 	*/
 
 	// caling all the API here
-	handler.HandleFunc("/hi", urlservice.GetLink)
+	handler.HandleFunc("/makeshort", urlservice.GetLink)
+	handler.HandleFunc("/makebig/{code}", urlservice.GetShortLink)
 
 	// pass the handler to server handler
 	server.Handler = handler
